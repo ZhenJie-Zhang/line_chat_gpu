@@ -1,0 +1,39 @@
+version: '3.7'
+services:
+  db:
+    image: mariadb:10.1
+    container_name: chatbot_db
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    networks:
+      - chatbot-net
+  jupyter:
+    image: abc1233108/darknet_sneaker:gpu-v1
+    container_name: line-chat-bot-jupyter 
+    ports:
+      - "5000:5000"
+      - "8888:8888"
+    volumes:
+      - ./:/root/linechatbot
+    tty: true
+    stdin_open: true
+    networks:
+      - chatbot-net
+#    command: start.sh jupyter notebook --NotebookApp.token=''
+  
+  serveo:
+    image: aeon33system/serveo-alpine:v1
+    container_name: chatbot_serveo
+    tty: true
+    stdin_open: true
+    networks:
+    - chatbot-net
+    command: autossh -M 0 -R sneaker.serveo.net:80:line-chat-bot-jupyter:5000 -o StrictHostKeyChecking=no serveo.net
+
+networks:
+  chatbot-net:
+    

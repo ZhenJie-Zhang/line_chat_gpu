@@ -1,0 +1,17 @@
+[
+{
+  "type": "image",
+  "originalContentUrl": "https://sneaker.serveo.net/material/%E9%97%9C%E6%B3%A8/logo_push_removebg.png",
+  "previewImageUrl": "https://sneaker.serveo.net/material/%E9%97%9C%E6%B3%A8/logo_push_removebg.png",
+  "animated": false
+},
+{
+  "type": "text",
+  "text": "想要使用我們的服務，請點選下方「屢視步爽」，開啟圖文選單選取你想使用的功能，並讓我們了解你的喜好，以便提供給您最適合的商品推薦，還請耐心回答，謝謝!"
+},
+{
+  "type": "sticker",
+  "packageId": "11539",
+  "stickerId": "52114110"
+}
+]
