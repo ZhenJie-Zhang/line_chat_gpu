@@ -30,6 +30,7 @@ password = 123456
     vm.max_map_count=262144
 - 並執行`sudo sysctl -p`
 
+![](https://paper-attachments.dropbox.com/s_05E5F1F8781875F732E4AE85C8772E32CCD2F20F18A6433A64FB355FDEA18D5C_1571747823962_image.png)
 
 ![](https://paper-attachments.dropbox.com/s_05E5F1F8781875F732E4AE85C8772E32CCD2F20F18A6433A64FB355FDEA18D5C_1571726115355_image.png)
 
