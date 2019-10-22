@@ -2,9 +2,12 @@ version: '3.7'
 services:
   jupyter:
     image: abc1233108/darknet_sneaker:gpu-v1.1
+#    build:
+#      context: ./dockerfile
+#      dockerfile: dockerfile-jupyter
     container_name: line-chat-bot-jupyter 
     ports:
-      - "5000:5000"
+      - "5001:5001"
       - "8888:8888"
     volumes:
       - ./:/root/linechatbot
@@ -21,7 +24,7 @@ services:
     stdin_open: true
     networks:
     - chatbot-net
-    command: autossh -M 0 -R sneaker.serveo.net:80:line-chat-bot-jupyter:5000 -o StrictHostKeyChecking=no serveo.net
+    command: autossh -M 0 -R sneaker.serveo.net:80:line-chat-bot-jupyter:5001 -o StrictHostKeyChecking=no serveo.net
 
   mysql:
     image: mariadb:10.1
@@ -181,6 +184,15 @@ services:
       - chatbot-net
     depends_on:
       - elasticsearch
+
+  redis:
+    image: redis:5.0
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:  
+      - chatbot-net
+    command: redis-server --requirepass "123456" --appendonly "yes"
 
 networks:
   chatbot-net:
