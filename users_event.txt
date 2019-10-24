@@ -86,3 +86,16 @@
 {"tag": "Picturetofindshoes", "timestamp": 1571720618450, "user_id": "U61e9b248bba23f4957cc97f29d4efcb5"}
 {"tag": "Picturetofindshoes", "timestamp": 1571720632780, "user_id": "U61e9b248bba23f4957cc97f29d4efcb5"}
 {"tag": "Picturetofindshoes", "timestamp": 1571720670121, "user_id": "U61e9b248bba23f4957cc97f29d4efcb5"}
+{"tag": "trend", "timestamp": 1571803039545, "user_id": "U41b2ae7104f6d2f7716a3e2cf08e2a05"}
+{"tag": "Picturetofindshoes", "timestamp": 1571803069027, "user_id": "U41b2ae7104f6d2f7716a3e2cf08e2a05"}
+{"tag": "Picturetofindshoes", "timestamp": 1571803122583, "user_id": "U41b2ae7104f6d2f7716a3e2cf08e2a05"}
+{"tag": "Picturetofindshoes", "timestamp": 1571803141529, "user_id": "U61e9b248bba23f4957cc97f29d4efcb5"}
+{"tag": "Picturetofindshoes", "timestamp": 1571803160890, "user_id": "U61e9b248bba23f4957cc97f29d4efcb5"}
+{"tag": "trend", "timestamp": 1571807159756, "user_id": "U61e9b248bba23f4957cc97f29d4efcb5"}
+{"tag": "Picturetofindshoes", "timestamp": 1571807167774, "user_id": "U41b2ae7104f6d2f7716a3e2cf08e2a05"}
+{"tag": "Picturetofindshoes", "timestamp": 1571807263738, "user_id": "U61e9b248bba23f4957cc97f29d4efcb5"}
+{"tag": "Wearadvice", "timestamp": 1571807284902, "user_id": "U41b2ae7104f6d2f7716a3e2cf08e2a05"}
+{"tag": "Productsrecommend", "timestamp": 1571807293931, "user_id": "U41b2ae7104f6d2f7716a3e2cf08e2a05"}
+{"tag": "Picturetofindshoes", "timestamp": 1571807316540, "user_id": "U41b2ae7104f6d2f7716a3e2cf08e2a05"}
+{"tag": "Picturetofindshoes", "timestamp": 1571807352148, "user_id": "U41b2ae7104f6d2f7716a3e2cf08e2a05"}
+{"tag": "Functiontofindshoes", "timestamp": 1571836692376, "user_id": "U61e9b248bba23f4957cc97f29d4efcb5"}
