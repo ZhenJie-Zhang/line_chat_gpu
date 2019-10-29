@@ -1,0 +1,31 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "3000元以下",
+        "text": "收到反饋",
+        "data": "folder=問題三&tag=3000"
+      },
+      {
+        "type": "postback",
+        "label": "3000~5000元",
+        "text": "收到反饋",
+        "data": "folder=問題三&tag=3000~5000"
+      },
+      {
+        "type": "postback",
+        "label": "5000元以上",
+        "text": "收到反饋",
+        "data": "folder=問題三&tag=5000"
+      }
+    ],
+    "title": "問題",
+    "text": "您的購鞋預算最高為多少?"
+  }
+}
+]

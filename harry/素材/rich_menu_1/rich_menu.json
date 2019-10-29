@@ -1,0 +1,115 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "功能選單2",
+  "chatBarText": "查看更多選單",
+  "areas": [
+    {
+      "bounds": {
+        "x": 87,
+        "y": 94,
+        "width": 1060,
+        "height": 348
+      },
+      "action": {
+        "type": "postback",
+        "text": "抓地力",
+        "data": "資料 1"
+      }
+    },
+    {
+      "bounds": {
+        "x": 89,
+        "y": 479,
+        "width": 1067,
+        "height": 349
+      },
+      "action": {
+        "type": "postback",
+        "text": "穩定性",
+        "data": "資料 2"
+      }
+    },
+    {
+      "bounds": {
+        "x": 89,
+        "y": 859,
+        "width": 1066,
+        "height": 352
+      },
+      "action": {
+        "type": "postback",
+        "text": "牽引力",
+        "data": "資料 3"
+      }
+    },
+    {
+      "bounds": {
+        "x": 87,
+        "y": 1246,
+        "width": 1069,
+        "height": 353
+      },
+      "action": {
+        "type": "postback",
+        "text": "靈活性",
+        "data": "資料 4"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1354,
+        "y": 93,
+        "width": 1066,
+        "height": 348
+      },
+      "action": {
+        "type": "postback",
+        "text": "緩震",
+        "data": "資料 5"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1354,
+        "y": 476,
+        "width": 1061,
+        "height": 353
+      },
+      "action": {
+        "type": "postback",
+        "text": "輕量",
+        "data": "資料 6"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1355,
+        "y": 859,
+        "width": 1062,
+        "height": 351
+      },
+      "action": {
+        "type": "postback",
+        "text": "耐磨",
+        "data": "資料 7"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1358,
+        "y": 1248,
+        "width": 1055,
+        "height": 351
+      },
+      "action": {
+        "type": "postback",
+        "text": "下一頁",
+        "data": "menu=rich_menu_2&tag=and"
+      }
+    }
+  ]
+}

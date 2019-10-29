@@ -1,0 +1,115 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "功能選單1",
+  "chatBarText": "查看更多選單",
+  "areas": [
+    {
+      "bounds": {
+        "x": 87,
+        "y": 94,
+        "width": 1049,
+        "height": 348
+      },
+      "action": {
+        "type": "postback",
+        "text": "支撐力",
+        "data": "資料 1"
+      }
+    },
+    {
+      "bounds": {
+        "x": 89,
+        "y": 479,
+        "width": 1047,
+        "height": 349
+      },
+      "action": {
+        "type": "postback",
+        "text": "柔軟",
+        "data": "資料 2"
+      }
+    },
+    {
+      "bounds": {
+        "x": 89,
+        "y": 859,
+        "width": 1049,
+        "height": 352
+      },
+      "action": {
+        "type": "postback",
+        "text": "舒適",
+        "data": "資料 3"
+      }
+    },
+    {
+      "bounds": {
+        "x": 87,
+        "y": 1246,
+        "width": 1046,
+        "height": 353
+      },
+      "action": {
+        "type": "postback",
+        "text": "止滑",
+        "data": "資料 4"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1329,
+        "y": 93,
+        "width": 1040,
+        "height": 348
+      },
+      "action": {
+        "type": "postback",
+        "text": "透氣",
+        "data": "資料 5"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1331,
+        "y": 476,
+        "width": 1045,
+        "height": 353
+      },
+      "action": {
+        "type": "postback",
+        "text": "貼合",
+        "data": "資料 6"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1329,
+        "y": 861,
+        "width": 1050,
+        "height": 351
+      },
+      "action": {
+        "type": "postback",
+        "text": "防護",
+        "data": "資料 7"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1329,
+        "y": 1248,
+        "width": 1046,
+        "height": 351
+      },
+      "action": {
+        "type": "postback",
+        "text": "下一頁",
+        "data": "menu=rich_menu_1&tag=and"
+      }
+    }
+  ]
+}
